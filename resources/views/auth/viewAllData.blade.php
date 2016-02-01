@@ -6,6 +6,7 @@
 <div class="container">
     <div style="height:50px;"  class="row custyle">
       <center><h3 class="panel-title"><small>c</small> Read <small>ud</small></h3></center>
+      <a class='btn btn-info btn-xs' href="{{url('register')}}"><span class="glyphicon glyphicon-circle-arrow-left"></span> Back</a>
       <table class="table table-striped custab">
               <thead>
                 <tr>

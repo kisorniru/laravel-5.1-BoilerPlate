@@ -8,7 +8,7 @@
     <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
       <div class="panel panel-default">
         <div class="panel-heading">
-        <h3 class="panel-title"><small>cr</small>Update<small>d</small></h3>
+          <h3 class="panel-title"><small>cr</small>Update<small>d</small></h3>
         </div>
         <div class="panel-body">
           {!! Form::open(array('route' => ['viewAllData.update',$editData->id],'method'=>'PUT')) !!}
@@ -25,9 +25,10 @@
             </div>
 
             <div class="form-group">
-              <input type="submit" value="Update" class="btn btn-info btn-block">
+              <input type="submit" value="Update" class="btn btn-info col-md-4">
             </div>
           {!! Form::close() !!}
+          <a href="{{url('viewAllData')}}"><button class="btn btn-info col-md-4 col-md-offset-4"><span class="glyphicon glyphicon-circle-arrow-left"></span> Back</button></a>
         </div>
       </div>
     </div>
